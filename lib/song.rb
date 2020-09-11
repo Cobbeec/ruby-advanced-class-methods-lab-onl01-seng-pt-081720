@@ -35,7 +35,7 @@ def self.find_or_create_by_name (song_name)
 end 
 
 def self.new_from_filename (file_name)
-  
+  split_filename = filename.chop.chop.chop.chop.split(" - ")
   
   
 end
